@@ -52,3 +52,8 @@ export function logout() {
         error: false,
     });
 }
+
+export function testLogin() {
+    console.log('inside the test function of state utility...');
+    return true;
+}
